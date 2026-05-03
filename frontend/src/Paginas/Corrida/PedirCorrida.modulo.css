@@ -1,0 +1,57 @@
+@reference "tailwindcss";
+
+.corridaPedir_wrap {
+  @apply mx-auto max-w-lg;
+}
+
+.corridaPedir_title {
+  @apply text-2xl font-bold text-slate-900;
+}
+
+.corridaPedir_lead {
+  @apply mt-1 text-sm text-slate-600;
+}
+
+.corridaPedir_card {
+  @apply mt-8 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm;
+}
+
+.corridaPedir_form {
+  @apply space-y-4;
+}
+
+.corridaPedir_label {
+  @apply block text-sm font-medium text-slate-700;
+}
+
+.corridaPedir_input {
+  @apply mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-slate-900 shadow-sm focus:border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500/30;
+}
+
+.corridaPedir_grid {
+  @apply grid gap-4 sm:grid-cols-2;
+}
+
+.corridaPedir_error {
+  @apply text-sm text-red-600;
+}
+
+.corridaPedir_success {
+  @apply rounded-lg bg-teal-50 px-3 py-2 text-sm text-teal-900 ring-1 ring-teal-200;
+}
+
+.corridaPedir_submit {
+  @apply w-full rounded-lg bg-teal-600 px-4 py-2.5 text-sm font-semibold text-white shadow hover:bg-teal-700 disabled:opacity-50;
+}
+
+.corridaPedir_hint {
+  @apply mt-4 text-xs text-slate-500;
+}
+
+.corridaPedir_blocked {
+  @apply rounded-xl border border-amber-200 bg-amber-50 p-6 text-sm text-amber-950;
+}
+
+.corridaPedir_link {
+  @apply font-medium text-teal-700 underline hover:text-teal-800;
+}

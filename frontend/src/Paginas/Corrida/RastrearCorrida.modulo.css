@@ -1,0 +1,45 @@
+@reference "tailwindcss";
+
+.rastrear_wrap {
+  @apply mx-auto max-w-3xl space-y-4;
+}
+
+.rastrear_title {
+  @apply text-2xl font-bold text-slate-900;
+}
+
+.rastrear_lead {
+  @apply text-sm text-slate-600;
+}
+
+.rastrear_meta {
+  @apply text-sm text-slate-500;
+}
+
+.rastrear_status {
+  @apply rounded-xl border border-teal-200 bg-teal-50 px-4 py-3 text-sm text-teal-950;
+}
+
+.rastrear_mapWrap {
+  @apply h-[min(55vh,440px)] w-full overflow-hidden rounded-2xl ring-1 ring-slate-200;
+}
+
+.rastrear_hint {
+  @apply text-xs leading-relaxed text-slate-500;
+}
+
+.rastrear_footer {
+  @apply text-center text-sm text-slate-600;
+}
+
+.rastrear_link {
+  @apply font-medium text-teal-700 underline hover:text-teal-900;
+}
+
+.rastrear_error {
+  @apply rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-900;
+}
+
+.rastrear_blocked {
+  @apply rounded-xl border border-amber-200 bg-amber-50 p-6 text-sm text-amber-950;
+}

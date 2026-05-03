@@ -1,0 +1,17 @@
+@reference "tailwindcss";
+
+.homePage {
+  @apply space-y-6;
+}
+
+.homePage_heading {
+  @apply text-2xl font-bold text-slate-900;
+}
+
+.homePage_lead {
+  @apply mt-1 text-slate-600;
+}
+
+.homePage_mapWrap {
+  @apply h-[420px] w-full;
+}

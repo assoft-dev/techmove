@@ -1,0 +1,45 @@
+@reference "tailwindcss";
+
+.appMap_frame {
+  @apply rounded-xl shadow-lg ring-1 ring-slate-200 overflow-hidden;
+}
+
+.appMap_placeholder {
+  @apply flex min-h-[320px] flex-col items-center justify-center rounded-xl border border-dashed border-amber-400/80 bg-amber-50 p-6 text-center text-sm text-amber-950;
+}
+
+.appMap_placeholderTitle {
+  @apply font-medium;
+}
+
+.appMap_placeholderText {
+  @apply mt-2 max-w-md text-amber-900/80;
+}
+
+.appMap_code {
+  @apply rounded bg-white px-1;
+}
+
+.mapPin {
+  @apply flex h-9 w-9 -translate-y-1 cursor-default items-center justify-center rounded-full border-2 text-lg shadow-md;
+}
+
+.mapPin_default {
+  @apply border-sky-800 bg-sky-500;
+}
+
+.mapPin_pickup {
+  @apply border-emerald-800 bg-emerald-500;
+}
+
+.mapPin_drop {
+  @apply border-rose-800 bg-rose-500;
+}
+
+.mapPin_driver {
+  @apply border-amber-800 bg-amber-400;
+}
+
+.mapPin_glyph {
+  @apply select-none leading-none;
+}

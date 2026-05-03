@@ -1,0 +1,113 @@
+@reference "tailwindcss";
+
+.dashPass_wrap {
+  @apply mx-auto max-w-3xl space-y-8;
+}
+
+.dashPass_header {
+  @apply space-y-1;
+}
+
+.dashPass_title {
+  @apply text-2xl font-bold text-slate-900;
+}
+
+.dashPass_lead {
+  @apply text-slate-600;
+}
+
+.dashPass_actions {
+  @apply flex flex-wrap gap-3;
+}
+
+.dashPass_action {
+  @apply inline-flex items-center justify-center rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-800 shadow-sm ring-1 ring-slate-100 transition hover:border-teal-300 hover:bg-teal-50/80 hover:text-teal-900;
+}
+
+.dashPass_actionPrimary {
+  @apply border-teal-600 bg-teal-600 text-white ring-teal-600 hover:border-teal-700 hover:bg-teal-700 hover:text-white;
+}
+
+.dashPass_meta {
+  @apply text-sm text-slate-500;
+}
+
+.dashPass_error {
+  @apply rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-900;
+}
+
+.dashPass_stats {
+  @apply grid gap-4 sm:grid-cols-2 lg:grid-cols-5;
+}
+
+.dashPass_stat {
+  @apply flex flex-col rounded-2xl border border-slate-200 bg-white p-4 shadow-sm;
+}
+
+.dashPass_statValue {
+  @apply text-2xl font-bold tabular-nums text-slate-900;
+}
+
+.dashPass_statLabel {
+  @apply mt-1 text-xs font-medium uppercase tracking-wide text-slate-500;
+}
+
+.dashPass_recent {
+  @apply rounded-2xl border border-slate-200 bg-white p-6 shadow-sm;
+}
+
+.dashPass_recentTitle {
+  @apply text-lg font-semibold text-slate-900;
+}
+
+.dashPass_recentList {
+  @apply mt-4 divide-y divide-slate-100;
+}
+
+.dashPass_recentItem {
+  @apply flex flex-wrap items-center gap-3 py-3 text-sm first:pt-0 last:pb-0;
+}
+
+.dashPass_recentId {
+  @apply font-mono font-semibold text-slate-800;
+}
+
+.dashPass_recentStatus {
+  @apply rounded-full px-2 py-0.5 text-xs font-medium;
+}
+
+.dashPass_recentStatus__requested {
+  @apply bg-slate-100 text-slate-800;
+}
+
+.dashPass_recentStatus__accepted {
+  @apply bg-sky-100 text-sky-900;
+}
+
+.dashPass_recentStatus__in_progress {
+  @apply bg-violet-100 text-violet-900;
+}
+
+.dashPass_recentStatus__completed {
+  @apply bg-teal-100 text-teal-900;
+}
+
+.dashPass_recentStatus__cancelled {
+  @apply bg-red-100 text-red-900;
+}
+
+.dashPass_recentPrice {
+  @apply ml-auto font-medium text-slate-700;
+}
+
+.dashPass_empty {
+  @apply rounded-xl border border-dashed border-slate-300 bg-slate-50 px-4 py-8 text-center text-sm text-slate-600;
+}
+
+.dashPass_blocked {
+  @apply rounded-xl border border-amber-200 bg-amber-50 p-6 text-sm text-amber-950;
+}
+
+.dashPass_link {
+  @apply font-medium text-teal-700 underline hover:text-teal-800;
+}

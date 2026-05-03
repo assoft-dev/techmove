@@ -1,0 +1,37 @@
+@reference "tailwindcss";
+
+.rootLayout {
+  @apply flex min-h-screen flex-col bg-slate-50 text-slate-900;
+}
+
+.rootLayout_header {
+  @apply border-b border-slate-200 bg-white shadow-sm;
+}
+
+.rootLayout_inner {
+  @apply mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-3;
+}
+
+.rootLayout_brand {
+  @apply text-lg font-semibold tracking-tight text-teal-700;
+}
+
+.rootLayout_nav {
+  @apply flex gap-4 text-sm font-medium;
+}
+
+.rootLayout_navLink {
+  @apply text-slate-600 transition-colors hover:text-teal-700;
+}
+
+.rootLayout_navMeta {
+  @apply max-w-[120px] truncate text-xs text-slate-500 sm:max-w-none sm:text-sm;
+}
+
+.rootLayout_navButton {
+  @apply rounded-md border border-slate-300 bg-white px-3 py-1.5 text-sm font-medium text-slate-700 shadow-sm transition-colors hover:border-teal-500 hover:text-teal-800;
+}
+
+.rootLayout_main {
+  @apply mx-auto w-full max-w-5xl flex-1 px-4 py-8;
+}

@@ -1,0 +1,57 @@
+@reference "tailwindcss";
+
+.loginPage_shell {
+  @apply mx-auto max-w-md rounded-2xl border border-slate-200 bg-white p-8 shadow-sm;
+}
+
+.loginPage_tabs {
+  @apply flex gap-2 rounded-lg bg-slate-100 p-1;
+}
+
+.loginPage_tab {
+  @apply flex-1 rounded-md py-2 text-sm font-medium transition-colors;
+}
+
+.loginPage_tabActive {
+  @apply bg-white text-teal-800 shadow-sm;
+}
+
+.loginPage_tabInactive {
+  @apply text-slate-600 hover:text-slate-900;
+}
+
+.loginPage_title {
+  @apply mt-6 text-xl font-semibold text-slate-900;
+}
+
+.loginPage_subtitle {
+  @apply mt-1 text-sm text-slate-600;
+}
+
+.loginPage_form {
+  @apply mt-6 space-y-4;
+}
+
+.loginPage_label {
+  @apply block text-sm font-medium text-slate-700;
+}
+
+.loginPage_input {
+  @apply mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-slate-900 shadow-sm focus:border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500/30;
+}
+
+.loginPage_error {
+  @apply text-sm text-red-600;
+}
+
+.loginPage_submit {
+  @apply w-full rounded-lg bg-teal-600 px-4 py-2.5 text-sm font-semibold text-white shadow hover:bg-teal-700 disabled:opacity-50;
+}
+
+.loginPage_footer {
+  @apply mt-6 text-center text-sm text-slate-600;
+}
+
+.loginPage_footerLink {
+  @apply font-medium text-teal-700 hover:underline;
+}
